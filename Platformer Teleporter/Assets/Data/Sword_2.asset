@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e217acc85ff095244a13ada291652430, type: 3}
+  m_Name: Sword_2
+  m_EditorClassIdentifier: 
+  <AnimatorController>k__BackingField: {fileID: 9100000, guid: c4bce63ba11491b4ca86ba907622ea93, type: 2}
+  <NumberOfAttacks>k__BackingField: 3
+  <ComponentData>k__BackingField:
+  - rid: 6120600918671753217
+  - rid: 6120600941449183233
+  - rid: 6120600975998189570
+  - rid: 6120601003215814657
+  - rid: 6120601018777468929
+  - rid: 6120601030923911169
+  references:
+    version: 2
+    RefIds:
+    - rid: 6120600918671753217
+      type: {class: WeaponSpriteData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: WeaponSpriteData
+        attackData:
+        - name: Attack 1
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1656082080, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: -1659364461, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 1440063567, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 1925865073, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 40157362, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+        - name: Attack 2
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 1083536742, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 489117589, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: -577129784, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 1270965763, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: -762617993, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+        - name: Attack 3
+          <PhaseSprites>k__BackingField:
+          - <Phase>k__BackingField: 2
+            <Sprites>k__BackingField:
+            - {fileID: 475401145, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 951183689, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 212243559, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 595991643, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+            - {fileID: 1264354720, guid: 9c2226acba1981a48835754fe9772d34, type: 3}
+    - rid: 6120600941449183233
+      type: {class: MovementData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: MovementData
+        attackData:
+        - name: Attack 1
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 3
+        - name: Attack 2
+          <Direction>k__BackingField: {x: 1, y: 0}
+          <Velocity>k__BackingField: 4
+        - name: Attack 3
+          <Direction>k__BackingField: {x: 0, y: 0}
+          <Velocity>k__BackingField: 0
+    - rid: 6120600975998189570
+      type: {class: ActionHitBoxData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: ActionHitBoxData
+        attackData:
+        - name: Attack 1
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.11
+            y: -1
+            width: 1.94
+            height: 1.41
+        - name: Attack 2
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.11
+            y: -1
+            width: 1.94
+            height: 1.41
+        - name: Attack 3
+          Debug: 1
+          <HitBox>k__BackingField:
+            serializedVersion: 2
+            x: 0.11
+            y: -1
+            width: 1.94
+            height: 1.41
+        <DetectalbeLayers>k__BackingField:
+          serializedVersion: 2
+          m_Bits: 512
+    - rid: 6120601003215814657
+      type: {class: DamageData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: DamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 5
+        - name: Attack 2
+          <Amount>k__BackingField: 10
+        - name: Attack 3
+          <Amount>k__BackingField: 15
+    - rid: 6120601018777468929
+      type: {class: KnockBackData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: KnockBackData
+        attackData:
+        - name: Attack 1
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 10
+        - name: Attack 2
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 10
+        - name: Attack 3
+          <Angle>k__BackingField: {x: 1, y: 1}
+          <Strength>k__BackingField: 20
+    - rid: 6120601030923911169
+      type: {class: PoiseDamageData, ns: Kien.Weapons.Components, asm: Assembly-CSharp}
+      data:
+        name: PoiseDamageData
+        attackData:
+        - name: Attack 1
+          <Amount>k__BackingField: 20
+        - name: Attack 2
+          <Amount>k__BackingField: 20
+        - name: Attack 3
+          <Amount>k__BackingField: 20

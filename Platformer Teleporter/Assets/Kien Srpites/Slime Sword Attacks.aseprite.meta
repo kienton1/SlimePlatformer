@@ -1,0 +1,716 @@
+fileFormatVersion: 2
+guid: 4dbd1f3259fb29c46baac2abb4e2e3b2
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 62a9f0aa5b59740cfbadc7e5f9823bb0, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 0
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 16
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  previousAsepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  asepriteImporterSettings:
+    fileImportMode: 1
+    importHiddenLayers: 0
+    layerImportMode: 1
+    defaultPivotSpace: 0
+    defaultPivotAlignment: 7
+    customPivotPosition: {x: 0.5, y: 0.5}
+    spritePadding: 0
+    generateModelPrefab: 1
+    generateAnimationClips: 1
+    addSortingGroup: 1
+    addShadowCasters: 0
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 638330799165724650
+  textureAssetName: 
+  singleSpriteImportData:
+  - name: 
+    originalName: 
+    pivot: {x: 0, y: 0}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 0
+      height: 0
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+  animatedSpriteImportData:
+  - name: Slime Sword Attacks_Frame_0
+    originalName: 
+    pivot: {x: 0.5, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 59
+      y: 88
+      width: 18
+      height: 13
+    spriteID: 46a1dcacba2918449af40095e5dd5acd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 59, y: 88}
+  - name: Slime Sword Attacks_Frame_1
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 67
+      width: 20
+      height: 13
+    spriteID: b93091aef540bff42beb2a1ae2507aa7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 67}
+  - name: Slime Sword Attacks_Frame_2
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 34
+      y: 25
+      width: 21
+      height: 13
+    spriteID: bd14c8b0b61a50c498c07c011d5b9ef8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 34, y: 25}
+  - name: Slime Sword Attacks_Frame_3
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 63
+      y: 25
+      width: 21
+      height: 13
+    spriteID: 6dce2bd165337e346979449e67131ede
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 63, y: 25}
+  - name: Slime Sword Attacks_Frame_4
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 67
+      width: 20
+      height: 13
+    spriteID: 8eb2698a7cc4cb84db158f90c6ad132d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 67}
+  - name: Slime Sword Attacks_Frame_5
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 60
+      y: 67
+      width: 20
+      height: 13
+    spriteID: e977bd978bfdebe4382e22c87e263380
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 60, y: 67}
+  - name: Slime Sword Attacks_Frame_6
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 92
+      y: 25
+      width: 21
+      height: 13
+    spriteID: 7eda0b6dd45765c4abb29f62e9caedd8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 92, y: 25}
+  - name: Slime Sword Attacks_Frame_7
+    originalName: 
+    pivot: {x: 0.40909094, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 98
+      y: 4
+      width: 22
+      height: 13
+    spriteID: 5623e246bdadd184c824b5bf61539a6e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 98, y: 4}
+  - name: Slime Sword Attacks_Frame_8
+    originalName: 
+    pivot: {x: 0.39130434, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 36
+      y: 4
+      width: 23
+      height: 13
+    spriteID: 3a237b5fe468dff4c99a5dd3b552c518
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 36, y: 4}
+  - name: Slime Sword Attacks_Frame_9
+    originalName: 
+    pivot: {x: 0.375, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 24
+      height: 13
+    spriteID: 662cb95ec470c734fa6dce1650b53fff
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: Slime Sword Attacks_Frame_10
+    originalName: 
+    pivot: {x: 0.39130434, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 67
+      y: 4
+      width: 23
+      height: 13
+    spriteID: c9258a3c112bf7541a8d0f34b463594d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 67, y: 4}
+  - name: Slime Sword Attacks_Frame_11
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 46
+      width: 21
+      height: 13
+    spriteID: 18a5257e011b68c4ba43464c08db1b5c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 46}
+  - name: Slime Sword Attacks_Frame_12
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 88
+      y: 67
+      width: 20
+      height: 13
+    spriteID: a3ea66bc574590448ab7a1d7f6546c46
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 88, y: 67}
+  - name: Slime Sword Attacks_Frame_13
+    originalName: 
+    pivot: {x: 0.45000002, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 88
+      width: 20
+      height: 13
+    spriteID: 3249d821f81e1c44e896f42f4968e3a9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 88}
+  - name: Slime Sword Attacks_Frame_14
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 33
+      y: 46
+      width: 21
+      height: 13
+    spriteID: 99633b87af47fda458aabfc2a2ab401f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 33, y: 46}
+  - name: Slime Sword Attacks_Frame_15
+    originalName: 
+    pivot: {x: 0.40909094, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 25
+      width: 22
+      height: 13
+    spriteID: a49885a848ac6c243872cdf01f01a51e
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 25}
+  - name: Slime Sword Attacks_Frame_16
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 62
+      y: 46
+      width: 21
+      height: 13
+    spriteID: c707fd3627dc4d04baf2c874e8bf1cce
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 62, y: 46}
+  - name: Slime Sword Attacks_Frame_17
+    originalName: 
+    pivot: {x: 0.42857143, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 91
+      y: 46
+      width: 21
+      height: 13
+    spriteID: e107ea919bd92904392e9a00b83baa64
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 91, y: 46}
+  - name: Slime Sword Attacks_Frame_18
+    originalName: 
+    pivot: {x: 0.47368422, y: -0.30769232}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 88
+      width: 19
+      height: 13
+    spriteID: af622428f7ac28a4ba7d3c0913a20356
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 88}
+  spriteSheetImportData: []
+  asepriteLayers:
+  - layerIndex: 0
+    guid: -962038982
+    name: Slime Sword Attacks
+    layerFlags: 0
+    layerType: 0
+    blendMode: 0
+    cells:
+    - name: Slime Sword Attacks_Frame_0
+      frameIndex: 0
+      cellRect:
+        x: 7
+        y: 4
+        width: 18
+        height: 13
+      spriteId: 46a1dcacba2918449af40095e5dd5acd
+    - name: Slime Sword Attacks_Frame_1
+      frameIndex: 1
+      cellRect:
+        x: 7
+        y: 4
+        width: 20
+        height: 13
+      spriteId: b93091aef540bff42beb2a1ae2507aa7
+    - name: Slime Sword Attacks_Frame_2
+      frameIndex: 2
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: bd14c8b0b61a50c498c07c011d5b9ef8
+    - name: Slime Sword Attacks_Frame_3
+      frameIndex: 3
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: 6dce2bd165337e346979449e67131ede
+    - name: Slime Sword Attacks_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 4
+        width: 20
+        height: 13
+      spriteId: 8eb2698a7cc4cb84db158f90c6ad132d
+    - name: Slime Sword Attacks_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 7
+        y: 4
+        width: 20
+        height: 13
+      spriteId: e977bd978bfdebe4382e22c87e263380
+    - name: Slime Sword Attacks_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: 7eda0b6dd45765c4abb29f62e9caedd8
+    - name: Slime Sword Attacks_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 7
+        y: 4
+        width: 22
+        height: 13
+      spriteId: 5623e246bdadd184c824b5bf61539a6e
+    - name: Slime Sword Attacks_Frame_8
+      frameIndex: 8
+      cellRect:
+        x: 7
+        y: 4
+        width: 23
+        height: 13
+      spriteId: 3a237b5fe468dff4c99a5dd3b552c518
+    - name: Slime Sword Attacks_Frame_9
+      frameIndex: 9
+      cellRect:
+        x: 7
+        y: 4
+        width: 24
+        height: 13
+      spriteId: 662cb95ec470c734fa6dce1650b53fff
+    - name: Slime Sword Attacks_Frame_10
+      frameIndex: 10
+      cellRect:
+        x: 7
+        y: 4
+        width: 23
+        height: 13
+      spriteId: c9258a3c112bf7541a8d0f34b463594d
+    - name: Slime Sword Attacks_Frame_11
+      frameIndex: 11
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: 18a5257e011b68c4ba43464c08db1b5c
+    - name: Slime Sword Attacks_Frame_12
+      frameIndex: 12
+      cellRect:
+        x: 7
+        y: 4
+        width: 20
+        height: 13
+      spriteId: a3ea66bc574590448ab7a1d7f6546c46
+    - name: Slime Sword Attacks_Frame_13
+      frameIndex: 13
+      cellRect:
+        x: 7
+        y: 4
+        width: 20
+        height: 13
+      spriteId: 3249d821f81e1c44e896f42f4968e3a9
+    - name: Slime Sword Attacks_Frame_14
+      frameIndex: 14
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: 99633b87af47fda458aabfc2a2ab401f
+    - name: Slime Sword Attacks_Frame_15
+      frameIndex: 15
+      cellRect:
+        x: 7
+        y: 4
+        width: 22
+        height: 13
+      spriteId: a49885a848ac6c243872cdf01f01a51e
+    - name: Slime Sword Attacks_Frame_16
+      frameIndex: 16
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: c707fd3627dc4d04baf2c874e8bf1cce
+    - name: Slime Sword Attacks_Frame_17
+      frameIndex: 17
+      cellRect:
+        x: 7
+        y: 4
+        width: 21
+        height: 13
+      spriteId: e107ea919bd92904392e9a00b83baa64
+    - name: Slime Sword Attacks_Frame_18
+      frameIndex: 18
+      cellRect:
+        x: 7
+        y: 4
+        width: 19
+        height: 13
+      spriteId: af622428f7ac28a4ba7d3c0913a20356
+    linkedCells: []
+    parentIndex: -1
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  secondarySpriteTextures: []
+  spritePackingTag: 
+  canvasSize: {x: 32, y: 32}
